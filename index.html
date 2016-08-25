@@ -1,50 +1,400 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>Arbitraje en Ajedrez: ayer hoy y mañana</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Arbitraje en Ajedrez: ayer, hoy y mañana</h1>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+                <p>
+                    Mikel Larreategi <br/>
+                    BCN, 27-08-2016
+                </p>
+            </section>
+            <section>
+                <h1>Presentación</h1>
+                <p>
+                    <ul>
+                        <li>Mikel Larreategi</li>
+                        <li>Eibar, 1981</li>
+                        <li>Árbitro, pero informático</li>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+                    </ul>
+                </p>
+                <aside class="notes">
+                    La mayoría me conocéis, pero soy Mikel Larreategi, Eibarrés
+                    y árbitro de ajedrez desde hace ya muchos años.
+                    Pero bueno, lo que realmente me da de comer es mi trabajo de
+                    informático. Trabajo en una pequeña empresa que se dedica
+                    a hacer webs, intranets, webs corporativas, etc, un ejemplo
+                    de lo que hemos hecho es Info64, una web que todos deberías
+                    estar utilizando
+                </aside>
+            </section>
+            <section>
+                <h1>Presentación (II)</h1>
+                <ul>
+                    <li>Árbitro FVA, 1999</li>
+                    <li>Árbitro Nacional, 2003</li>
+                    <li>Árbitro Internacional, 2005</li>
+                </ul>
+            </section>
+            <section>
+                <h1>¿Y por qué árbitro de ajedrez?</h1>
+                <p>
+                    <ul>
+                        <li>Muy buena pregunta.... todavía me lo pregunto</li>
+                        <li class="fragment">
+                            Todo comenzó en el club en 1999, hablando con el responsable de natación
+                        </li>
+                        <li class="fragment">
+                            La pregunta fue:<br/>
+                            <em>¿Y si tenéis un problema durante una competición y no hay árbitro, qué pasa?</em>
+                        </li>
+                        <li class="fragment">
+                            Evidentemente no tenía la respuesta... <br/>Y llegó al día siguiente una carta de la Federación convocando un curso.
+                        </li>
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+                    </ul>
+                </p>
+            </section>
+            <section>
+                <h1>Club Deportivo Eibar</h1>
+                <ul>
+                    <li>1999, presidente de ajedrez</li>
+                    <li>2006, presidente del Club</li>
+                    <li>2016, <strong>libre!!!</strong></li>
+                </ul>
+                <ul class="fragment">
+                    <li>2500 socios</li>
+                    <li>13 secciones: deportivas y culturales</li>
+                    <li>100% voluntario</li>
+                </ul>
+                <aside class="notes">
+                    Para poner un poco el contexto del Club que he citado en el origen de mi
+                    historia como árbitro, quiero explicar cómo es nuestro club.
+                </aside>
+            </section>
+            <section>
+                <h1>Disclaimer: mi contexto</h1>
+                <ul>
+                    <li>1100 Federados en Euskadi
+                        <ul>
+                            <li>500 Gipuzkoa</li>
+                            <li>500 Bizkaia</li>
+                            <li>100 Araba</li>
+                        </ul>
+                    </li>
+                    <li>4 Federaciones independientes</li>
+                </ul>
+                <aside class="notes">
+                    Ojo, todo lo que voy a hablar aquí está muy influenciado
+                    por el contexto del que vengo, y el contexto ajedrecístico
+                    es el que es, somos pocos.
+
+                    Somos 4 federaciones, cada una con su presupuesto y vías de
+                    financiación independientes (Gobierno + Diputaciones)
+
+                    Igual desde una óptica catalana o incluso estatal, puede ser
+                    que venga de otro mundo. Además del volumen también, somos
+                    1200 como mucho.
+                </aside>
+            </section>
+            <section data-background-image="img/relax.gif">
+
+                <aside class="notes">
+                    Últimamente estoy un poco reflexivo. En el contexto en el que me muevo
+                    he visto cosas que no me han gustado, sobre todo pasotismo.
+                    A todos los niveles (clubes + federaciones). Por ello tomé la decisión
+                    de dejar la presidencia de mi Club primer, la Federación Gipuzkoana
+                    después, rechazar trabajar para la Federación Vasca por último.
+
+                    Y tampoco he arbitrado nada serio en 2016 (un torneo de blitz por equipos
+                    que organizamos en el club)
+
+
+                </aside>
+            </section>
+            <section>
+                <h1>Pasado, presente y futuro</h1>
+                <h2 class="fragment">
+                    5 etapas del duelo
+                </h2>
+            </section>
+            <section>
+                <h1>Negación</h1>
+                <ul class="fragment">
+                    <li>Entre 1999 - 2005</li>
+                    <li>No se sabe nada de nosotros</li>
+                    <li>Hay que darnos a conocer</li>
+                    <li>Hay que <em>empujar</em> a la gente </li>
+                </ul>
+                <aside class="notes">
+                    Quizá fue la época más bonita:
+                        participaba en foros, era activo, quería saber lo máximo posible,
+                        me leía todo lo que había sobre ajedrez (no solo arbitraje), intervenía
+                        hasta en foros en inglés (en la web de la FIDE había uno), leía AjedrezND
+                        incluso las crónicas en catalán, las resoluciones de los Comités de la FCDE,
+                        foros de Madrid, ...
+
+                    Propuse cosas, hablaba regularmente en la Federación Gipuzkoana y en la Vasca, preguntaba
+                    proponía...
+
+                    Era un mundo nuevo para mí, lo veía mal y lo quería cambiar.
+                </aside>
+            </section>
+
+            <section>
+                <h1>Negociación</h1>
+                <ul class="fragment">
+                    <li>Tras <em>dar la brasa</em> parecía que me hacían caso </li>
+                    <li>Entré en la Junta de la FGA</li>
+                    <li>Proponía cosas en la FVA, parecía que me hacían caso</li>
+                </ul>
+                <aside class="notes">
+                    Esta fase también fue interesante: fue ver cómo veían otros este mundo
+                    proponía cosas, Reglamentos, mejoras, ... no solo en el arbitraje
+                    en el ajedrez en general.
+
+                    Hubo propuestas para modificar el título de AN y Árbitro Autonómico en Euskadi.
+                    Nuevo Reglamento del Comité en Euskadi, cosas para mover el tema. Categorización
+                    de torneos y árbitros, movimiento, control, ...
+
+                    Fue una época en la que llegó la titulitis a los árbitros de ajedrez
+                    era la época de la Olimpiada de Calvià.
+                </aside>
+            </section>
+
+            <section>
+                <h1>Ira</h1>
+                <ul class="fragment">
+                    <li>Veía que no me hacían caso</li>
+                    <li><em>Me pico y no respiro</em></li>
+                    <li>Me presento</li>
+                </ul>
+                <aside class="notes">
+                    Fue la primera vez que ví que si quería hacer las cosas lo tendría que hacer yo,
+                    porque no lo iba a hacer nadie por mí. Por eso dije lo de "me presento"; y presenté
+                    mi candidatura como árbitro a la Asamblea de la FEDA (2008) y una candidatura (junto a un equipo)
+                    a la FVA (2008-2009). Salí derrotado en ambos, y me vino a la cabeza la famosa frase de
+                    "atado y bien atado."
+                </aside>
+            </section>
+            <section>
+                <h1>Miedo</h1>
+                <ul class="fragment">
+                    <li>Fue un poco relativo</li>
+                    <li>No arbitraría nada en Euskadi ni en FEDA</li>
+                    <li>No podré hacer nada</li>
+                </ul>
+                <aside class="notes">
+                    Digo que fue algo relativo, porque en cierta forma lo que arbitraba
+                    mayoritariamente eran torneos bien de un organizador privado en San Sebastián o
+                    de la Federación Gipuzkoana y ambos pasaban bastante de lo que opinaba la Federación Vasca,
+                    por lo que mas o menos seguí arbitrando lo mismo.
+
+                    Eso sí, desde entonces (2008), no arbitré ningún Campeonato de Euskadi más, y eso que se han
+                    jugado todos los años en mi misma ciudad los Cadetes y Juveniles y algún año incluso el
+                    infantil y alevín.
+
+                    Por otra arte, en Gipuzkoa/Euskadi aunque haya bastantes árbitros titulados, los realmente
+                    activos éramos/somos 3 ó 4, por lo que tenía que arbitrar torneos a la fuerza.
+                </aside>
+            </section>
+            <section>
+                <h1>Aceptación</h1>
+                <ul>
+                    <li>Actualidad</li>
+                    <li class="fragment">Está todo perdido</li>
+                    <li class="fragment">Lo dejo todo y que les den dos duros</li>
+                </ul>
+            </section>
+            <section data-background-color="#000000">
+                <h1>Todo un poco negro ¿no?</h1>
+
+            </section>
+
+            <section>
+                <h1>Seamos un poco positivos (no demasiado)</h1>
+                <h2 class="fragment">
+                    Todavía hay gente en <em>negación</em> o <em>negociación</em>
+                </h2>
+                <h2 class="fragment">
+                    incluso en <em>ira</em>
+                </h2>
+            </section>
+
+            <section>
+                <h1>Seamos positivos</h1>
+                <ul class="fragment">
+                    <li>Cada vez más torneos (para elo)</li>
+                    <li>Exigencias mayores para titulación</li>
+                </ul>
+                <aside class="notes">
+                    Ahora se evalua todo: blitz, rápido y estándar
+                    Hay exámenes "serios" a nivel autonómico, incluso FIDE
+                    El tema no es ser corporativistas, sino tener garantías de formación
+                </aside>
+            </section>
+
+            <section>
+                <h1>Más pasos...</h1>
+                <ul class="fragment">
+                    <li>Formación continua obligatoria</li>
+                    <li>Título por puntos</li>
+                    <li>Acción coordinada FEDA <-> FFAA </li>
+                </ul>
+                <aside class="notes">
+                    Tenemos que cambiar el modelo, tenemos que ir a modelos
+                    que nos impongan más exigencias: formación obligatoria (por ejemplo en Francia
+                    las licencias valen para 3-4 años, creo, y hay renovaciones y tests que pasan
+                    los árbitros). Desde que aprobé el examen de AN, las Leyes han cambiado
+                    5 veces!!!
+
+                    El título por puntos puede ser otra vía, que tras superar un control externo
+                    te vaya dando/quitando puntos y así obligar a reciclarse.
+
+                    O la total coordinación de Autonómicas y FEDA, o un mayor centralismo FEDA.
+                    Manda huevos que lo pida un vasco en Catalunya, pero creo que un modelo
+                    más "centralista y opresor", más francés, vendría mejor para igualar todo. Y no
+                    como aquí. Porque si yo un año arbitro 2 torneos, uno en Euskadi y otro en Catalunya
+                    vivo los dos extremos:
+
+                    - En CAT no me dejarán ni respirar sin el Visto Bueno de Davide.
+                    - En EUS, la FVA pasará de mí, y recibiré el OK de Muela tras enviar el informe y después
+                    de que la FEDA lo haya publicado ya en la FIDE.
+
+                </aside>
+            </section>
+
+            <section>
+                <h1>Seamos negativos</h1>
+                <h2 class="fragment">
+                    Todo ello supone €€€
+
+                </h2>
+                <aside class="notes">
+                    Y de Euros no andan precisamente sobradas nuestras federaciones ni los organizadores.
+                </aside>
+            </section>
+
+            <section>
+                <h1>Sigamos siendo negativos</h1>
+                <h2 class="fragmente">La culpa es nuestra</h2>
+                <ul>
+                    <li>Nos hemos convertido en meros administrativos</li>
+                    <li>Y lo peor es que nos gusta</li>
+                    <li>Ponemos cartelitos</li>
+                    <li>Le <em>damos a la tecla</em></li>
+                    <li>Gestionamos inscripciones</li>
+                </ul>
+                <aside class="notes">
+                    No digo yo que tengamos que mantener los secretos del
+                    arbitraje como si fueramos cerrajeros, sino que tenemos
+                    que hacer ver que somos necesarios, hacer bien nuestro
+                    trabajo para dar un valor añadido: y no hacerlo como
+                    administrativos, sino como árbitros
+                </aside>
+            </section>
+            <section>
+                <blockquote cite="Mikel Larreategi">
+                    Hemos conseguido que lo más estricto de las Leyes
+                    fuera perder porque había sonado un móvil. <br/>
+                    Eso sí, hemos sido super estrictos con ello, hasta el
+                    punto de convertirlo en ridículo y ya nos lo han cambiado
+                    en las últimas Leyes del Ajedrez.
+                </blockquote>
+            </section>
+            <section>
+                <h1>No todos los problemas son ajenos</h1>
+                <h2>O nos ponemos las pilas, o nos sustituye un robot</h2>
+                <aside class="notes">
+                    Todos los problemas no son ajenos a nosotros (que también
+                    los hay), son también internos nuestros, o nos ponemos las pilas
+                    o al final los delegados de clubes harán nuestro trabajo, o
+                    lo hará la Federación con un árbitro telefónico, o Facebook
+                    hará un bot para tratar las dudas reglamentarias.
+                </aside>
+            </section>
+
+            <section>
+                <h1>Pero no todo está perdido</h1>
+                <img data-src="img/super-coco.jpg" />
+            </section>
+
+            <section data-background-color="#000000">
+                <p>
+                    <img data-src="img/bernie-sanders-socialism-scare-gif.gif" alt="" />
+                </p>
+                <p class="fragment">
+                    Asamblea General de la FIDE 2016. <br/>
+                    <a href="http://rules.fide.com/images/stories/Laws_of_Chess_2017_-_draft6.pdf">Propuesta de nuevas Leyes del Ajedrez para 2017</a>
+                </p>
+            </section>
+            <section>
+                <h1>Todo está perdido</h1>
+                <img data-src="img/jump-window.gif"/>
+            </section>
+
+            <section>
+                <img data-src="img/keep-calm.png" />
+                <aside class="notes">
+                    Tranquilos, no pasa nada. El ajedrez no va a desaparecer
+                    Siempre nos quedará jugar un torneo y "hacer trampas", total
+                    los demás jugadores no se habrán leído las 32 páginas de las Leyes del Ajedrez
+
+                </aside>
+            </section>
+
+            <section data-background-color="#000000">
+                <h1>¡Gracias!</h1>
+            </section>
+
+            <section data-background-color="#000000">
+                <h1>¿Preguntas?</h1>
+                <img class="" data-src="img/life-of-brian-stoning.jpg" alt="" />
+            </section>
+
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+    </script>
+</body>
 </html>
